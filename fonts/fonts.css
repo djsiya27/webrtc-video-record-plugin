@@ -1,0 +1,8 @@
+ /* Make the CDN fonts accessible from the CSS */
+ @font-face {
+    font-family: 'VideoJS';
+    src: url('https://vjs.zencdn.net/f/1/vjs.eot');
+    src: url('https://vjs.zencdn.net/f/1/vjs.eot?#iefix') format('embedded-opentype'), 
+      url('https://vjs.zencdn.net/f/1/vjs.woff') format('woff'),     
+      url('https://vjs.zencdn.net/f/1/vjs.ttf') format('truetype');
+  }
